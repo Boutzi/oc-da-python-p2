@@ -1,0 +1,18 @@
+http://books.toscrape.com/index.html
+
+URL du livre
+Universal Product Code (upc)
+Titre du livre
+Prix, taxe incluse
+Prix, taxe exclue
+Quantité disponible
+Description du produit
+Catégorie
+Rating
+URL de l'image
+Chemin local de l'image téléchargée
+
+En plus de cela, les images des livres sont téléchargées. 
+Ces données sont ensuite classées par catégories et inscrites dans un fichier CSV correspondant
+
+generate requirements.txt, cmd: pipreqs . 
