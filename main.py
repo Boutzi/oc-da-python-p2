@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+from book import Book
 
 url = "http://books.toscrape.com/index.html"
 
