@@ -24,6 +24,7 @@ if __name__ == "__main__":
         print(f"=> Scraped {len(books_data)} books.")
         
         write_csv(books_data)
+        print(f"=> Scraping complete. A file named Data.csv has been generated in the current directory")
     elif page == -1:
         # categories = { "names": category_instance.get_categories_names() }
         # print(f"=> Scraped {len(categories["names"])} category names.")
@@ -36,6 +37,7 @@ if __name__ == "__main__":
         print(f"=> Scraped {category.capitalize()} books.")
         
         # write_csv(books_data, f"{category.capitalize()}_data.csv")
+        print(f"=> Scraping complete. A file named {category.capitalize()}_data.csv has been generated in the current directory")
     else:
         book_links = books_instance.get_one_page_link(page)
         print(f"=> Scraped {len(book_links)} book links.")
@@ -45,5 +47,5 @@ if __name__ == "__main__":
         print(f"=> Scraped {len(books_data)} books.")
         
         write_csv(books_data, f"Page_{page}_data.csv")
+        print(f"=> Scraping complete. A file named Page_{page}_data.csv has been generated in the current directory")
         
-    print(f"=> Scraping complete.")

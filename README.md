@@ -30,3 +30,21 @@ Finally, you can run the script:
 ```
 python main.py
 ```
+
+# Config:
+In the **main.py** file, change ```page``` and ```category``` variables to change the mode.
+
+```python
+# scrape all books from the website
+page = 0 
+```
+```python
+# scrape all books from pages between 1 and 50
+# example for page 32
+page = 32 
+```
+```python
+# scrape all books from the Peotry category
+page = -1 
+category = "Poetry"
+```
