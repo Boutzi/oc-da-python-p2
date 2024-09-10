@@ -40,11 +40,12 @@ page = 0
 ```
 ```python
 # scrape all books from pages between 1 and 50
-# example for page 32
+# example with page 32
 page = 32 
 ```
 ```python
-# scrape all books from the Peotry category
+# scrape all books from any category
+# example with Peotry
 page = -1 
 category = "Poetry"
 ```
