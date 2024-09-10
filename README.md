@@ -32,7 +32,7 @@ python main.py
 ```
 
 # Config:
-In the **main.py** file, change ```page``` and ```category``` variables to change the mode.
+In the **main.py** file, change ```page``` and ```category``` variables to switch modes.
 
 ```python
 # scrape all books from the website
